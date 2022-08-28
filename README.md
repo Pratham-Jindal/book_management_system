@@ -5,13 +5,13 @@ this is a book record management API backend for the management of records and b
 # routes and endpoints
 
 ## /users
-POST : create a new user 
+POST : create a new user ✅
 GET : get list of all users ✅
 
 ## /users/{id} 
 dynamic user -> to get a specific user with a unique value id eg : /user/1
 GET : get a user by id ✅
-PUT : update a user by id  
+PUT : update a user by id ✅ 
 DELETE : delete a user by id (check if he /she still has an issued book) (is there any fine to be paid)
 
 ## /users/subscriptions-details/{id}
@@ -21,19 +21,21 @@ GET : get user subs details
 3. fine if any 
 
 ## /books
-GET : get all the books 
-POST : create a new book 
+GET : get all the books ✅
+POST : create a new book ✅
 
 ## /books/{id}
-GET : get a book by id 
-POST : update a book by id 
+GET : get a book by id ✅
+POST : update a book by id ✅
 
 ## /books/issued
-GET : get all issued books 
+GET : get all issued books ✅
 
 
 ## /books/issued/withfine
-GET : all issued books with fine 
+GET : all issued books with fine  
+
+NOTE : dates will be informat mm-dd-yyyy
 
 # subscription types
 Basic (3 months)
